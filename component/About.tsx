@@ -3,11 +3,11 @@ import Image from 'next/image'
 
 const stats = [
   { number: '1+', label: 'Years Experience' },
-  { number: '10+', label: 'Projects Done' },
-  { number: '5+', label: 'Happy Clients' },
+  { number: '16+', label: 'Projects Done' },
+  { number: '12+', label: 'Happy Clients' },
 ]
 
-const tags = ['React', 'Next.js', 'Node.js', 'MongoDB', 'TypeScript', 'Tailwind']
+const tags = ['React', 'Next.js', 'Node.js', 'MongoDB', 'TypeScript', 'Tailwind', "NestJs"]
 
 export default function About() {
   return (
@@ -40,10 +40,10 @@ export default function About() {
         </div>
 
         {/* Main Content */}
-        <div className="flex flex-col md:flex-row items-center gap-16">
+        <div className="flex flex-col md:flex-row items-center gap-12 lg:gap-16">
 
           {/* LEFT: Photo */}
-          <div className="flex-shrink-0 flex flex-col items-center gap-8">
+         <div className="w-full md:w-[40%] flex-shrink-0 flex flex-col items-center gap-8">
 
             <div className="relative w-[240px] h-[240px] md:w-[280px] md:h-[280px] group transition-all duration-500">
 
@@ -90,7 +90,7 @@ export default function About() {
           </div>
 
           {/* RIGHT: Text */}
-          <div className="flex-1 flex flex-col gap-6">
+         <div className="w-full md:w-[60%] flex flex-col gap-6">
 
             <p className="text-[#7c3aed] font-mono text-sm tracking-widest uppercase">
               who I am

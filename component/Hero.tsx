@@ -94,17 +94,16 @@ export default function Hero() {
 
           {/* Description */}
           <p className="text-white/45 text-sm md:text-base leading-relaxed max-w-md mb-10">
-            Passionate Full Stack Developer | MERN Enthusiast.
+            Passionate Full Stack Developer 
             <br />
-            Turning ideas into interactive web experiences with clean, efficient,
-            and modern code. I thrive on building solutions that are not just
-            functional, but memorable.
+           Building responsive, scalable, and modern web applications
+with React, Next.js, TypeScript, and backend technologies.
           </p>
 
           {/* Buttons */}
           <div className="flex flex-wrap gap-4 mb-10">
     <a
-  href="/resume.pdf"
+  href="/resume-of-romicha.pdf"
   download
   className="
   flex items-center gap-2 px-6 py-3 rounded-md
