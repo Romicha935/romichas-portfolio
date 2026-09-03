@@ -7,7 +7,7 @@ const stats = [
   { number: '12+', label: 'Happy Clients' },
 ]
 
-const tags = ['React', 'Next.js', 'Node.js', 'MongoDB', 'TypeScript', 'Tailwind', "NestJs"]
+const tags = ['Next.js', 'Node.js', 'MongoDB', 'TypeScript', 'Tailwind', 'Email.Js',]
 
 export default function About() {
   return (

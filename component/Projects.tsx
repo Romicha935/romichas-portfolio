@@ -4,6 +4,21 @@ import Image from 'next/image'
 
 const projects = [
   {
+  id: 3, 
+  title: 'Enterprise ERP System',
+  subtitle: 'HR & Management Dashboard',
+  description: 'An internal admin dashboard for managing company operations including staff enrollment, payroll calculation, department hierarchies, leave approvals, and logistics tracking.',
+  category: 'Full Stack',
+  tags: ['Next.js', 'Redux Toolkit', 'TypeScript', 'Tailwind CSS',"Nest.js", "PostgreSQL", "Prisma", "JWT", ],
+  live: 'https://erp-system-hr.vercel.app/',
+  github: {
+    frontend: 'https://github.com/Romicha935/erp-system-hr',
+    backend: 'https://github.com/Romicha935/erp-system-backend',
+  },
+  image: '/project3.png', 
+  dotColor: '#2563eb', 
+},
+  {
     id: 1,
     title: 'ElectroPoint',
     subtitle: 'Electronics eCommerce Website',
@@ -27,18 +42,7 @@ const projects = [
     image: '/project2.png',
     dotColor: '#9f67ff',
   },
-  {
-    id: 3,
-    title: 'Book Management System',
-    subtitle: 'MERN Stack Application',
-    description: 'A full-stack MERN app for managing books with pagination, sorting, and category filtering. Demonstrates clean CRUD operations and responsive UI without auth complexity.',
-    category: 'Full Stack',
-    tags: ['MongoDB', 'Express', 'React', 'Node.js', 'Tailwind CSS'],
-    live: 'https://book-managment-system-mern.vercel.app/',
-    github: '#',
-    image: '/project3.png',
-    dotColor: '#7c3aed',
-  },
+
   {
     id: 4,
     title: 'ShopNext',

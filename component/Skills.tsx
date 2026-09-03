@@ -17,7 +17,7 @@ import { FiFigma } from 'react-icons/fi'
 import {
   SiExpress, SiFirebase, SiGraphql, SiJavascript, SiJsonwebtokens,
   SiMaildotru,
-  SiMongodb, SiNetlify, SiReactquery, SiRedux, SiShadcnui,
+  SiMongodb, SiNetlify, SiPostgresql, SiReactquery, SiRedux, SiShadcnui,
 } from 'react-icons/si'
 
 const categories = [
@@ -42,8 +42,11 @@ const categories = [
     icon: <Server size={18} />,
     skills: [
       { name: 'Node.js', level: 'Intermediate', icon: <Server size={26} /> },
+      { name: 'Nest.js', level: 'Intermediate', icon: <Cpu size={26} /> },
       { name: 'Express.js', level: 'Intermediate', icon: <SiExpress size={26} /> },
       { name: 'MongoDB', level: 'Intermediate', icon: <SiMongodb size={26} /> },
+      { name: 'PostgreSQL', level: 'Intermediate', icon: <SiPostgresql size={26} /> },
+      {name: 'prisma', level: 'Intermediate', icon: <SiPostgresql size={26} />},
       { name: 'REST API', level: 'Advanced', icon: <Globe size={26} /> },
       { name: 'GraphQL', level: 'Intermediate', icon: <SiGraphql size={26} /> },
       { name: 'JWT Auth', level: 'Intermediate', icon: <SiJsonwebtokens size={26} /> },

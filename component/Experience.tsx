@@ -4,8 +4,7 @@ const experiences = [
   {
     role: 'Frontend Developer',
     company: 'Softvence Omega',
-    org: 'Betopia Group',
-    duration: 'Oct 2025 — Present',
+    duration: 'Oct 2025 — Aug 2026',
     type: 'Full-time',
     points: [
       'Developing pixel-perfect UI with React.js & Next.js',
