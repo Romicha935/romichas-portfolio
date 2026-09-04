@@ -37,8 +37,8 @@ const contactInfo = [
       </svg>
     ),
     label: 'GitHub',
-    value: 'github.com/devromicha',
-    href: 'https://github.com/devromicha',
+    value: 'github.com/Romicha935',
+    href: 'https://github.com/Romicha935',
   },
 ]
 

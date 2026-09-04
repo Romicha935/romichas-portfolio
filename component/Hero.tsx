@@ -4,7 +4,7 @@ import Image from 'next/image'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-const roles = ['Frontend Developer.', 'MERN Stack Developer.']
+const roles = ['Frontend Developer.', 'Full Stack Developer.']
 
 const techStack = [
   { name: 'React',      color: '#61DAFB' },
@@ -103,7 +103,7 @@ with React, Next.js, TypeScript, and backend technologies.
           {/* Buttons */}
           <div className="flex flex-wrap gap-4 mb-10">
     <a
-  href="/resume-of-romicha.pdf"
+  href="/01.resume-of-romicha.pdf"
   download
   className="
   flex items-center gap-2 px-6 py-3 rounded-md
@@ -144,7 +144,7 @@ with React, Next.js, TypeScript, and backend technologies.
 
             {/* GitHub */}
             <a
-              href="https://github.com/devromicha"
+              href="https://github.com/Romicha935"
               target="_blank"
               rel="noopener noreferrer"
               className="w-11 h-11 rounded-full border border-white/10 bg-white/[0.03] backdrop-blur-xl flex items-center justify-center text-white/45 hover:text-[#7c3aed] hover:border-[#7c3aed]/40 hover:bg-[#7c3aed]/10 hover:shadow-[0_0_25px_rgba(124,58,237,0.35)] transition-all duration-300 hover:-translate-y-1"
@@ -206,7 +206,7 @@ with React, Next.js, TypeScript, and backend technologies.
             {/* Photo */}
             <div className="absolute inset-[4px] rounded-full overflow-hidden bg-[#161616]">
               <Image
-                src="/romicha.png"
+                src="/me.jpg"
                 alt="Romicha"
                 fill
                 className="object-cover transition-all duration-500 hover:scale-110"
