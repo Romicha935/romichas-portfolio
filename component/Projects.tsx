@@ -234,7 +234,7 @@ export default function Projects() {
                     Live Demo
                   </a>
                   <a
-                    href={project.github}
+                    href={typeof project.github === 'string' ? project.github : project.github.frontend}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-2 px-4 py-2 rounded-lg border border-white/10 text-white/50 font-syne font-bold text-xs tracking-wide hover:border-[#7c3aed]/40 hover:text-white/80 transition-all duration-300"
