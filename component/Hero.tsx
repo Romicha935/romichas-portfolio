@@ -103,7 +103,7 @@ with React, Next.js, TypeScript, and backend technologies.
           {/* Buttons */}
           <div className="flex flex-wrap gap-4 mb-10">
     <a
-  href="/01.resume-of-romicha.pdf"
+  href="/01.resume-of-romicha .pdf"
   download
   className="
   flex items-center gap-2 px-6 py-3 rounded-md
